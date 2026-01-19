@@ -13,13 +13,13 @@ These feature files provide comprehensive test specifications for:
 
 | File | Scenarios | Description |
 |------|-----------|-------------|
-| `product-management.feature` | 29 | Complete product CRUD operations, UI interactions, form validation |
-| `product-search-filter.feature` | 26 | Search functionality, category filtering, real-time updates |
-| `navigation.feature` | 27 | Page transitions, menu navigation, mobile support |
-| `product-api.feature` | 41 | REST API endpoints with comprehensive error handling |
-| `email-validation.feature` | 34 | Email validation utility with edge cases and security |
-| `password-security.feature` | 35 | Password strength validation and secure hashing |
-| **Total** | **192** | **Complete application coverage** |
+| `product-management.feature` | 22 | Complete product CRUD operations, UI interactions, form validation |
+| `product-search-filter.feature` | 29 | Search functionality, category filtering, real-time updates |
+| `navigation.feature` | 33 | Page transitions, menu navigation, mobile support |
+| `product-api.feature` | 33 | REST API endpoints with comprehensive error handling |
+| `email-validation.feature` | 51 | Email validation utility with edge cases and security |
+| `password-security.feature` | 43 | Password strength validation and secure hashing |
+| **Total** | **211** | **Complete application coverage** |
 
 ## 🎯 Coverage Breakdown
 
@@ -332,5 +332,5 @@ For questions about the feature files or test implementation:
 ---
 
 **Last Updated**: 2026-01-19  
-**Total Scenarios**: 192  
+**Total Scenarios**: 211  
 **Status**: ✅ Complete - Ready for step definition implementation

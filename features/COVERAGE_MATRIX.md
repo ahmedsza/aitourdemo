@@ -6,13 +6,13 @@ This document provides a comprehensive overview of the BDD test coverage for the
 
 | Feature | File | Scenarios | Coverage Areas |
 |---------|------|-----------|----------------|
-| Product Management | `product-management.feature` | 29 | CRUD operations, UI interactions, accessibility |
-| Product Search & Filter | `product-search-filter.feature` | 26 | Search functionality, filtering, real-time updates |
-| Navigation | `navigation.feature` | 27 | Page transitions, menu navigation, mobile support |
-| Product API | `product-api.feature` | 41 | REST API endpoints, error handling, concurrent operations |
-| Email Validation | `email-validation.feature` | 34 | Utility function validation, edge cases, security |
-| Password Security | `password-security.feature` | 35 | Password validation, hashing, security properties |
-| **TOTAL** | **6 files** | **192 scenarios** | **Full application coverage** |
+| Product Management | `product-management.feature` | 22 | CRUD operations, UI interactions, accessibility |
+| Product Search & Filter | `product-search-filter.feature` | 29 | Search functionality, filtering, real-time updates |
+| Navigation | `navigation.feature` | 33 | Page transitions, menu navigation, mobile support |
+| Product API | `product-api.feature` | 33 | REST API endpoints, error handling, concurrent operations |
+| Email Validation | `email-validation.feature` | 51 | Utility function validation, edge cases, security |
+| Password Security | `password-security.feature` | 43 | Password validation, hashing, security properties |
+| **TOTAL** | **6 files** | **211 scenarios** | **Full application coverage** |
 
 ---
 
@@ -367,5 +367,5 @@ Security scenarios included across features:
 ---
 
 *Last Updated: 2026-01-19*
-*Total Scenarios: 192*
+*Total Scenarios: 211*
 *Coverage: Complete application coverage with happy path, edge cases, errors, and accessibility*

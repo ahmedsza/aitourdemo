@@ -283,13 +283,13 @@ This document provides a comprehensive overview of the BDD test coverage for the
 ## Total Coverage Statistics
 
 ### By Coverage Type
-- **Happy Path Scenarios**: 54 (28%)
-- **Edge Cases**: 45 (23%)
-- **Error Handling**: 45 (23%)
-- **Accessibility**: 21 (11%)
-- **Security**: 14 (7%)
+- **Happy Path Scenarios**: 54 (26%)
+- **Edge Cases**: 48 (23%)
+- **Error Handling**: 47 (22%)
+- **Accessibility**: 28 (13%)
+- **Security**: 20 (9%)
 - **Performance**: 6 (3%)
-- **API-Specific**: 7 (4%)
+- **API-Specific**: 8 (4%)
 
 ### By Feature Area
 - **Frontend UI**: 82 scenarios (43%)

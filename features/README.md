@@ -24,13 +24,13 @@ These feature files provide comprehensive test specifications for:
 ## 🎯 Coverage Breakdown
 
 ### By Category
-- **Happy Path**: 54 scenarios (28%)
-- **Edge Cases**: 45 scenarios (23%)
-- **Error Handling**: 45 scenarios (23%)
-- **Accessibility**: 21 scenarios (11%)
+- **Happy Path**: 54 scenarios (26%)
+- **Edge Cases**: 45 scenarios (21%)
+- **Error Handling**: 45 scenarios (21%)
+- **Accessibility**: 21 scenarios (10%)
 - **Security**: 14 scenarios (7%)
 - **Performance**: 6 scenarios (3%)
-- **API-Specific**: 7 scenarios (4%)
+- **API-Specific**: 7 scenarios (3%)
 
 ### By Feature Area
 - **Frontend UI**: 82 scenarios (43%)

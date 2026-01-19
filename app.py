@@ -61,5 +61,20 @@ def delete_product(product_id):
     del data[product_id]
     return '', 204
 
+@app.route('/submit-feedback', methods=['POST'])
+def submit_feedback():
+    body = request.get_json()
+    if not body or 'name' not in body or 'category' not in body or 'message' not in body:
+        abort(400)
+    
+    # Log the feedback to console
+    print(f"=== Feedback Received ===")
+    print(f"Name: {body['name']}")
+    print(f"Category: {body['category']}")
+    print(f"Message: {body['message']}")
+    print(f"========================")
+    
+    return jsonify({'status': 'success', 'message': 'Feedback submitted successfully'}), 200
+
 if __name__ == '__main__':
     app.run(debug=True)
